@@ -124,7 +124,7 @@ input {
 }
 .error {
   border: 2px solid var(--Red);
-  background: url("/images/icon-error.svg");
+  background: url("/icon-error.svg");
   background-repeat: no-repeat;
   background-position: right 5% bottom 50%;
 }
