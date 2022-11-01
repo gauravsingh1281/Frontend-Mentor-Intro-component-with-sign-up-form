@@ -146,7 +146,7 @@ input {
     width: 94%;
   }
 }
-
+/* mobile view */
 @media (max-width: 570px) {
   body {
     background-image: url("images/bg-intro-mobile.png");
@@ -156,7 +156,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 115vh;
+    height: 210vh;
     width: 32rem;
   }
   .container {
