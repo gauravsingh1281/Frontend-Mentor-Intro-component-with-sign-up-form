@@ -20,7 +20,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 .form-section {
   width: 340px;
@@ -146,6 +145,12 @@ input {
     width: 94%;
   }
 }
+@media (min-width: 570px) {
+  body {
+    height: 100vh;
+  }
+}
+
 /* mobile view */
 @media (max-width: 570px) {
   body {
@@ -156,7 +161,6 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120vh;
     width: 32rem;
   }
   .container {
